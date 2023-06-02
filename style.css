@@ -1,0 +1,229 @@
+/*-->BODY<--*/
+
+body {
+
+    background: rgb(215, 223, 195);
+    background: linear-gradient(180deg, rgba(215, 223, 195, 1) 0%, rgba(62, 116, 144, 1) 100%);
+    font-family: 'Montserrat', sans-serif;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*Header*/
+
+header {
+    padding: 10px 0;
+    margin-bottom: auto;
+}
+
+.alura-a {
+    padding: 10px;
+    margin: 0px;
+}
+
+
+/*Main*/
+
+.decryptor-container {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+/*---Area Desencriptador---*/
+
+.individual-container {
+    margin: 1% 2%;
+    border: 2px solid #0A3871;
+    border-radius: 15px;
+    width: 550px;
+    height: 450px;
+    overflow: auto;
+    display: flex;
+    flex-flow: column nowrap;
+
+    background: rgb(255, 216, 216);
+    background: linear-gradient(0deg, rgba(255, 216, 216, 1) 0%, rgba(215, 223, 195, 1) 100%);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.sub-header {
+    padding: 10px;
+    margin: 0;
+    font-weight: bold;
+    color: #0A3871;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*---Entrada de texto---*/
+
+.text-area {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 1%;
+    width: 98%;
+    height: 100%;
+
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    resize: none;
+    outline: none;
+
+    background-color: transparent;
+}
+
+/*---Salida de texto---*/
+
+.text-result {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 1%;
+    width: 98%;
+
+    color: black;
+    overflow: auto;
+    overflow-wrap: break-word;
+
+}
+
+
+.advice-message {
+    margin: 0px;
+    padding: 11px;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke
+}
+
+.buttons {
+
+    padding: 1%;
+    margin: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Botones*/
+
+.decryptor-button {
+    margin: 0 3%px;
+    width: 20%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #0A3871;
+    border: none;
+    border-radius: 15px;
+    transition: .5s all;
+    cursor: pointer;
+
+}
+
+.decryptor-button:hover {
+    background-color: #96B1C8;
+    color: #0A3871;
+}
+
+.encryptor-button {
+    margin: 0 3%px;
+    width: 20%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #0A3871;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    transition: .5s all;
+    cursor: pointer;
+
+}
+
+.encryptor-button:hover {
+    background-color: #96B1C8;
+    color: white;
+}
+
+.copy-button {
+    margin: 0 10%;
+    width: 30%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #0A3871;
+    background-color: rgb(157, 157, 157);
+    border: none;
+    border-radius: 15px;
+    transition: .5s all;
+    cursor: pointer;
+
+}
+
+.copy-button:hover {
+    background-color: #96B1C8;
+    color: white;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.foot {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container_alura {
+    padding: 0%;
+    margin: 2%;
+    font-size: 13px;
+    font-weight: bold;
+    color: whitesmoke
+}
+
+.container_me {
+    padding: 0%;
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+    color: whitesmoke
+}
+
+.by {
+    padding: 0%;
+    margin: 2%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.github {
+    margin: 0 5px;
+    padding: 0;
+}
+
+.linkedin {
+
+    margin: 0 5px;
+    padding: 0;
+}
+
+.fa-brands {
+    color: #f5f5f5;
+}
